@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "@icehouse/universal--web--libraries--guc",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "publish": "rimraf dist && tsc && cpy README.md .npmignore dist && package-json-minifier && dts-bundle-generator index.ts -o dist/index.d.ts && clean-empty-js 'dist/**/*.js' && clean-empty-directory dist && cd dist && npm publish"
+  },
+  "author": "Juyeong Maing <mjy9088@naver.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i6e/universal--web--libraries--guc.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "clean-empty-directory": "^2.0.0",
+    "clean-empty-js": "^2.0.0",
+    "cpy-cli": "^5.0.0",
+    "dts-bundle-generator": "^9.5.1",
+    "glob": "^11.0.0",
+    "mkdirp": "^3.0.1",
+    "package.json-minifier": "^0.0.4",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@icehouse/universal--util--typescript--types": "^0.1.0",
+    "@icehouse/universal--web--libraries--guc-core": "^0.3.3"
+  }
+}

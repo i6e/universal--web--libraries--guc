@@ -1,0 +1,2 @@
+*.css
+!expected_output.css

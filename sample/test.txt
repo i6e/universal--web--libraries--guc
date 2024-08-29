@@ -1,0 +1,3 @@
+Hello world!
+
+guc will generate following classes: media-dark:mx-auto, m-[10px]
