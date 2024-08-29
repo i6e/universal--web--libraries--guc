@@ -4,7 +4,7 @@
     "start": "tsx ."
   },
   "dependencies": {
-    "@icehouse/universal--web--libraries--guc": "../dist",
+    "@icehouse/universal--web--libraries--guc": "^0.1.0",
     "@icehouse/universal--web--libraries--guc-recommended-plugins": "^0.3.1"
   },
   "devDependencies": {
