@@ -2,7 +2,6 @@
   "private": true,
   "name": "@icehouse/universal--web--libraries--guc",
   "version": "0.1.0",
-  "main": "index.js",
   "scripts": {
     "publish": "rimraf dist && tsc && cpy README.md .npmignore dist && package-json-minifier && dts-bundle-generator index.ts -o dist/index.d.ts && clean-empty-js 'dist/**/*.js' && clean-empty-directory dist && cd dist && npm publish"
   },
