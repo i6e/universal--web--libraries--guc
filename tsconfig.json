@@ -14,5 +14,5 @@
 
     // package
   },
-  "exclude": ["sample"]
+  "exclude": ["sample"],
 }
